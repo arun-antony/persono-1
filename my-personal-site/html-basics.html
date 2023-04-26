@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta description="This description of the webpage will be extracted by Search engines and shown in the search results">
+  <title>Basic HTML tags - This appears in the title of the browser window</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <h1>Full Stack Web Development Course Learning from Udemy</h1>
+  <hr size="3" noshade>
+
+  <p>Full Stack Web Development Boot Camp by Angela Yu - Udemy</p>
+
+  <h2>Timeline:</h2>
+  <ol>
+    <li>HTML Beginner Module started and finished on 19 October 2021</li>
+    <li>HTML Intermediate Module started and finished on 20 October 2021 </li>
+    <li>Published 1st barebone html website at github pages on 20 October 2021</li>
+    <li>CSS Beginer Module started and finished on 20 October 2021</li>
+    <li>CSS Intermediate started on 21 October 2021 and finished on 22 October 2021</li>
+  </ol>
+
+  <h2>References:</h2>
+  <ul>
+    <li>Documentation</li>
+    <ol>
+      <li> <a href="https://developer.mozilla.org/en-US/">Mozilla Developer Networks</a></li>
+      <li> <a href="https://devdocs.io/">Dev Docs</a></li>
+      <li> <a href="https://www.w3schools.com/html/">W3 Schools Html</a></li>
+      <li> <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">CSS styling references at MDN</a></li>
+      <li> <a href="https://www.frontendmentor.io">HTML Design chanllenges - frontendmentor</a></li>
+
+    </ol>
+    <br>
+    <li>Tryouts</li>
+    <ol>
+      <li><a href="https://codepen.io/pen/">CodePen Online playground for trying out HTML/CSS/JS</a></li>
+    </ol>
+    <br>
+    <li>Tools</li>
+    <ol>
+      <li>Atom Text editor. Packages installed listed below:</li>
+      <ul>
+        <li>emmet - code completion</li>
+        <li>beautify - code intendation</li>
+        <li>Pigment - shows color preview inline</li>
+      </ul>
+      <li>Color pallettes - <a href="https://colorhunt.co/">Color Hunt</a></li>
+      <li>Get emoji icons here - <a href="https://emojipedia.com">Emojipedia</a></li>
+      <li>Get favicons here - <a href="https://www.favicon.cc/">Favicon Generator</a></li>
+      <li>Get fonts here - <a href="https://fonts.google.com">Google Fonts</a></li>
+      <li>Get flat icons here - <a href="https://www.flaticon.com">Flat icon for free</a></li>
+    </ol>
+    <br>
+    <li>Shortcuts in Mac</li>
+    <ol>
+      <li> Beautify in Atom - Ctrl + Option + B</li>
+      <li> Emoji panel in Mac - Ctrl + Cmd + Space</li>
+    </ol>
+  </ul>
+
+  <hr size="3" noshade>
+  <h2>Summary of what I have learned so far:</h2>
+  <hr size="3" noshade>
+
+  <h1>Hyper Text Markup Language (HTML)</h1>
+
+
+  <h3>Heading Tags</h3>
+
+  <h1>H1 Tag for level 1 heading</h1>
+  <h2>H2 Tag for level 2 heading</h2>
+  <h3>H3 Tag for level 3 heading</h3>
+  <h4>H4 Tag for level 4 heading</h4>
+  <h5>H5 Tag for level 5 heading</h5>
+  <h6>H6 Tag for level 6 heading</h6>
+
+  <hr size="3" noshade>
+
+  <h3>Formatting of textarea.</h3>
+
+  <em>This is emphasized text. Looks same as Italics - but the text is emphasized</em>
+  <br>
+
+  <i>This is italics text. Just formatted to italics</i>
+  <br>
+
+  <strong>This is strong text. Looks same as Bold</strong>
+  <br>
+
+  <b>This is boldened text</b>
+
+  <p>
+    This is wrapped in paragraph.
+  </p>
+  <br>
+
+  <hr size="3" noshade>
+  <h3>Tables</h3>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Sl. No</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Marcus</td>
+        <td>Rashford</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Bruno</td>
+        <td>Fernandez</td>
+      </tr>
+    </tbody>
+    <tfoot>
+
+    </tfoot>
+  </table>
+  <br>
+  <hr size="3" noshade>
+
+  <h3>Forms & Input types</h3>
+  <form action="index.html" method="post">
+    <label for="">Text</label>
+    <input type="text" name="" value=""><br>
+
+    <label for="">Color Picker</label>
+    <input type="color" name="" value=""><br>
+
+    <label for="">Date Picker</label>
+    <input type="date" name="" value=""><br>
+
+    <label for="">Check Box</label>
+    <input type="checkbox" name="" value=""><br>
+
+    <label for="">Radio Button</label>
+    <input type="radio" name="" value=""><br>
+
+    <label for="">Range Selector</label>
+    <input type="range" name="" value=""><br>
+
+    <br>
+
+  </form>
+  <br>
+  <hr size="3" noshade>
+  <h1>Cascaded Style Sheets (CSS)</h1>
+
+  <h3>Internal CSS</h3>
+  <p>We could add css styles internally to a page element using the tag style.
+    We apply styles to an element in the head section so that the style will
+    be applied to the element automatically when used in that page.</p>
+
+  <hr noshade>
+
+  <h3>External CSS</h3>
+  <p>
+    We should place the styling of elements in a separate stylesheet and link them to the pages so that the
+    whole website could be styles consistently. If we want to style any pages or element we could do that too.
+    The styles specfied at element will have higher precedence over the page level or global level.
+  </p>
+
+  <ul>
+    <li>Tag Selectors -> Styles the elemets all over</li>
+    <li>Class Selectors -> Define classes with styles and apply the classes to elements. Class selectors can be cascaded. Defined using "." operator. A page can have any number of elemets with the same class. Syntax: .classname { properties }</li>
+    <li>ID selectors -> Define ID with styles and apply to the element with that ID. A page can have only one element with the ID. ID cannot be cascaded. Defined using "#" operator. Syntax: #IDname { properties }</li>
+  </ul>
+
+  <hr size="3" noshade>
+
+  <h3>The Box Model</h3>
+  <ul>
+    <li>Padding</li>
+    <li>Border</li>
+    <li>Margin</li>
+  </ul>
+
+  <hr size="3" noshade>
+
+  <h3>CSS display Property</h3>
+  <ul>
+    <li>display: block </li>
+    <ul>
+      <li>take up the entire width of the screen</li>
+      <li>can specify custom widths</li>
+      <li>Examples: h1-h6, p, div</li>
+    </ul>
+    <li>display: inline</li>
+    <ul>
+      <li>Placed inline to other elements</li>
+      <li>Examples: Span, Img, Anchor</li>
+      <li>Cannot specify widths</li>
+    </ul>
+    <li>display: inline-block</li>
+    <ul>
+      <li>Can specify widths, wont fill the entire screen - can sit in same line with other elemts</li>
+    </ul>
+
+    <li>display: none</li>
+    <ul>
+      <li>The element will be GONE from the view</li>
+      <li>Similar to Android : visibility:GONE</li>
+      <li>For getting android: visibility: invisible , use property "visibility:hidden"</li>
+    </ul>
+  </ul>
+
+  <hr size="3" noshade>
+
+  <h3>CSS positioing</h3>
+  <ul>
+    <li>static</li>
+    <ul>
+      <li>Default positioning of element within the container</li>
+    </ul>
+    <li>relative</li>
+    <ul>
+      <li>by changing the position property to relative, we can modify the cordinates (left,top,right,bottom)</li>
+      <li>the element poition is changed w.r.t to its default position - NOT w.r.t edge of screen!</li>
+      <li>the element does not pushes the neighbouring elements (like margin does)</li>
+      <li>When Using relative positioning, eventhough the element's position changes, its like the old or default position is left as a placeholder so that the other elements below or above it are not affected - as if that element's ghost is still there</li>
+    </ul>
+
+    <li>absolute</li>
+    <ul>
+      <li>achieved by changing position property to absolute</li>
+      <li>the position changes w.r.t to the parent container</li>
+      <li>the element shifts completely - no ghosting..hence the other elements around re adjusts their positioning</li>
+      <li>The parent is by default the body. To make a container as parent, that container need to mark its position as relative</li>
+    </ul>
+
+    <li>fixed</li>
+    <ul>
+      <li>By using this position, we can fix an element w.r.t to the container</li>
+      <li>even when other elements in the container scrolls, the fixed element will stay fixed.</li>
+    </ul>
+  </ul>
+
+  <hr size="3" noshade>
+
+  <h3>CSS Font Family</h3>
+  <p> Font Family can be specified at element level. The reference to font can be mentioned at page head. And font-family can be specified to individual selectors (class/id/text element/container)</p>
+  <hr size="3" noshade>
+
+  <h3>CSS Float and Clear</h3>
+  <p>Float - Used to wrap text around elements. Clear is used to prevent wrapping around</p>
+
+  <hr size="3" noshade>
+
+  <h3>CSS Sizing</h3>
+  <ul>
+    <li>16px = 1em = 1rem = 100%</li>
+    <li>px - remains fixed</li>
+    <li>em/rem/% values change when the browser font size is changed</li>
+    <li>rem prevents adding up of em or % from root element</li>
+  </ul>
+</body>
+<footer>
+  <a href="/">Back to Home</a> | <a href="/html-basics">Top</a>
+</footer>
+
+</html>

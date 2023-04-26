@@ -1,0 +1,134 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+h1{
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2{
+  margin: 20px;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', san-serif;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3{
+  font-family: 'Montserrat', san-serif;
+  color: #11999E;
+}
+
+hr{
+  border-style: dotted none none none;
+  margin: 75px auto 75px auto;
+  width: 4%;
+  border-color: #A1A1A1;
+  border-width: 5px;
+}
+
+p{
+
+  line-height: 2;
+  color: #40514E;
+}
+
+.intro{
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.top-container{
+  background-color: #E4F9F5;
+  padding: 100px 0 0 0;
+  position: relative;
+}
+
+.middle-container{
+  padding: 60px;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 30px;
+}
+
+.contact-me{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-link{
+  color: #11999E;
+  font-family: 'Montserrat', san-serif;
+  font-weight: bolder;
+  text-decoration: none;
+  padding-bottom: 30px;
+  margin: 30px 15px 10px 15px;
+}
+
+.footer-link:hover{
+  color: #EAF6F6;
+}
+
+.copyright-text{
+  font-size: 0.75rem;
+  margin: 30px auto 0 auto;
+  color: #EAF6F6;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: justify;
+  line-height: 2;
+}
+
+.img-skill-left{
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.img-skill-right{
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+
+.img-top-cloud{
+  position: absolute;
+  right: 200px;
+  top: 50px;
+}
+
+.img-bottom-cloud{
+  position: absolute;
+  left: 150px;
+  bottom: 400px;
+}
+
+.btn {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 5px;
+   color: #FFFFFF;
+   font-family: Montserrat;
+   font-weight: 100;
+   padding: 10px;
+   background-color: #66BFBF;
+   border: solid #FFFFFF 2px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
